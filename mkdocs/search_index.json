@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "generator-mern\n\n\nYo generator for scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS.",
+            "text": "generator-mern\n\n\nYo generator for scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS. WIP. DO NOT USE, yet :)",
             "title": "Home"
         },
         {
             "location": "/#generator-mern",
-            "text": "Yo generator for scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS.",
+            "text": "Yo generator for scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS. WIP. DO NOT USE, yet :)",
             "title": "generator-mern"
         }
     ]
