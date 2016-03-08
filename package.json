@@ -5,7 +5,7 @@
   "homepage": "https://ojengwa.github.io/generator-mern",
   "author": "Bernard Ojengwa",
   "files": [
-    "generators"
+    "generators/app"
   ],
   "main": "index.js",
   "keywords": [
@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "test": "gulp",
-    "prepublish": "gulp prepublish"
+    // "prepublish": "gulp prepublish"
   },
   "repository": {
     "type": "git",
