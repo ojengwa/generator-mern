@@ -1,0 +1,10 @@
+site_name: Generator-MERN Documentation.
+theme: mkdocs
+repo_url: https://github.com/ojengwa/paystack/
+repo_name: Github Repo
+site_description: Yo generator for scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS.
+site_author: Bernard Ojengwa
+copyright: ©2016, Bernard Ojengwa
+
+extra:
+    version: 1.0.0
