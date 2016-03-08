@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "generator-mern\n\n\nScaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS. \nWIP\n.\n\n\nDO NOT USE, yet :)",
+            "title": "Home"
+        },
+        {
+            "location": "/#generator-mern",
+            "text": "Scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS.  WIP .",
+            "title": "generator-mern"
+        },
+        {
+            "location": "/#do-not-use-yet",
+            "text": "",
+            "title": "DO NOT USE, yet :)"
+        }
+    ]
+}

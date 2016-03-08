@@ -1,4 +1,4 @@
 node_modules
 coverage
-sites
+sites/
 .DS_Store
