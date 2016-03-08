@@ -4,12 +4,24 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 module.exports = generators.Base.extend({
+  constructor: function () {
+    // body...
+    generators.Base.apply(this, arguments);
+
+    // Add support for outputing version info
+    this.option('version', {
+      alias: 'v',
+      desc: "Display the current version of this generator",
+
+    })
+  }
+
   prompting: function () {
     var done = this.async();
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the cat\'s pajamas ' + chalk.red('generator-mern') + ' generator!'
+      'Welcome to the ' + chalk.blue('MERN') + chalk.red(' (Mongo, Express, React and NodeJS)') + ' generator!'
     ));
 
     var prompts = [{
@@ -25,6 +37,13 @@ module.exports = generators.Base.extend({
 
       done();
     }.bind(this));
+
+    this.argument('appname', {
+      desc: "Choose a name for this project",
+      required: true,
+      type: "String",
+      defaults: this.store.appname
+    });
   },
 
   writing: function () {
