@@ -14,7 +14,7 @@ module.exports = generators.Base.extend({
       desc: "Display the current version of this generator",
 
     })
-  }
+  },
 
   prompting: function () {
     var done = this.async();
@@ -41,8 +41,7 @@ module.exports = generators.Base.extend({
     this.argument('appname', {
       desc: "Choose a name for this project",
       required: true,
-      type: "String",
-      defaults: this.store.appname
+      type: "String"
     });
   },
 
