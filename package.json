@@ -18,8 +18,7 @@
     "yeoman-generator"
   ],
   "scripts": {
-    "test": "gulp",
-    // "prepublish": "gulp prepublish"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
