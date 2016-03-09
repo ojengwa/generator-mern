@@ -1,7 +1,7 @@
 {
   "name": "generator-mern",
-  "version": "1.0.3",
-  "description": "Scaffolding tool which makes it easy to build isomorphic apps using Mongo, Express, React and NodeJS. WIP. DO NOT USE, YET",
+  "version": "1.0.4",
+  "description": "Yo scaffolding tool for generating isomorphic apps using Mongo, Express, React and NodeJS.",
   "homepage": "https://ojengwa.github.io/generator-mern",
   "author": "Bernard Ojengwa",
   "files": [
